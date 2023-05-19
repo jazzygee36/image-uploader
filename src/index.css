@@ -73,6 +73,8 @@ button:focus-visible {
   background: #ffffff;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
+  align-items: center;
+  align-content: center;
 }
 .image-header h1 {
   font-family: "Poppins";
@@ -93,4 +95,46 @@ button:focus-visible {
   position: relative;
   color: #828282;
   top: 25px;
+}
+.image-uploader-container {
+  box-sizing: border-box;
+  position: absolute;
+  width: 338px;
+  height: 218.9px;
+  left: 515px;
+  top: 230px;
+  background: #f6f8fb;
+  border: 1px dashed #97bef4;
+  border-radius: 12px;
+}
+
+.image-uploader-container h4 {
+  position: relative;
+
+  /* left: 643.17px; */
+  top: 130px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+
+  /* Gray 4 */
+
+  color: #bdbdbd;
+}
+.file-button {
+  position: relative;
+
+  height: 31.98px;
+  /* left: 670.64px; */
+  top: 335.39px;
+
+  /* Blue 1 */
+
+  background: #2f80ed;
+  border-radius: 8px;
 }

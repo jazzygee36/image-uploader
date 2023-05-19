@@ -1,5 +1,5 @@
 import "./App.css";
-import { Modal } from "antd";
+import { Button, Space } from "antd";
 
 function App() {
   return (
@@ -8,6 +8,14 @@ function App() {
         <h1>Upload your image</h1>
         <p>File should be Jpeg, Png</p>
       </div>
+      <div className="image-uploader-container">
+        <h4>Drag & drop your image here</h4>
+      </div>
+      <Space>
+        <Button type="primary" block className={"file-button"}>
+          Choose a file
+        </Button>
+      </Space>
     </div>
   );
 }
